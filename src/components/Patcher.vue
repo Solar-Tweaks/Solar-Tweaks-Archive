@@ -124,7 +124,8 @@ export default {
     patches: [
       { name: "Freelook & AutoTextHotkey", internalName: "freelook", tooltip: "Get back Freelook and AutoTextHotkey on Hypixel" },
       { name: "Pinned servers", internalName: "pinnedServers", tooltip: "Remove any promoted/pinned servers from the server list" },
-      { name: "Block server from disabling mods", internalName: "modspacket", tooltip: "Completely remove the packet : \"LCPacketModSettings\"" }
+      { name: "Block server from disabling mods", internalName: "modspacket", tooltip: "Completely remove the packet : \"LCPacketModSettings\"" },
+      { name: "Disable blog posts", internalName: "blogPosts", tooltip: "Remove blog posts from bottom right of main menu screen" }
     ],
     customizations: [
       { name: "Level head prefix", internalName: "levelHead", tooltip: "Customize your Hypixel Level head prefix", text: "" },

@@ -9,11 +9,11 @@ export function getSetting(key) {
 
 export function setupSettings() {
   console.log(settingsFile);
-  if(!fs.existsSync(settingsFile)) {
+  if (!fs.existsSync(settingsFile)) {
     fs.writeFileSync(settingsFile, '', { encoding: 'utf-8' });
     console.log("Settings file created");
   }
-  if(String(readSettings()).match(/^\s*$/)) {
+  if (String(readSettings()).match(/^\s*$/)) {
     const settings = JSON.stringify(defaultSettings, null, 4);
     fs.writeFileSync(settingsFile, settings, { encoding: 'utf-8' });
     console.log("Settings written");
@@ -29,7 +29,7 @@ export async function writeSetting(key, value) {
     setTimeout(() => {
       let settings = JSON.parse(readSettings());
       settings[key] = value;
-      fs.writeFileSync(settingsFile, JSON.stringify(settings, null, 4), { encoding: 'utf-8'});
+      fs.writeFileSync(settingsFile, JSON.stringify(settings, null, 4), { encoding: 'utf-8' });
       resolve();
       console.log(`New value of ${key} written successfuly to the settings file`);
     }, 50);
@@ -69,6 +69,19 @@ export const defaultSettings = {
           methodName: "run()V",
           searchFor: `LDC "pinnedServers"`,
           replaceWith: `LDC "removedByLunarTweaks"`
+        }
+      ],
+      blogPosts: [
+        {
+          patchType: "replace",
+          scripts: {
+            searchFor: "replace1.txt",
+            replaceWith: "replace2.txt"
+          },
+          path: "lunar/dD/lIlIIIlllIlllllllIlllllII",
+          methodName: "run()V",
+          searchFor: `LDC "blogPosts"`,
+          replaceWith: `LDC "removedBySolarTweaks"`
         }
       ],
       modspacket: [
