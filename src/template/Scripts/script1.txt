@@ -1,0 +1,2 @@
+disassemble --destination=$dest $classPath $method
+quit

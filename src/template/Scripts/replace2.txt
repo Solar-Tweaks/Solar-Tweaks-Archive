@@ -1,3 +1,0 @@
-assemble $classPath $method $input
-export $outputFile
-quit

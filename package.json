@@ -1,6 +1,6 @@
 {
   "name": "solartweaks",
-  "version": "2.1.0",
+  "version": "3.0.1",
   "private": false,
   "author": {
     "name": "Cy0ze",
@@ -19,9 +19,9 @@
   "dependencies": {
     "@electron/remote": "^1.2.1",
     "adm-zip": "^0.5.5",
+    "axios": "^0.24.0",
     "core-js": "^3.6.5",
     "fs-extra": "^10.0.0",
-    "node-fetch": "^3.0.0",
     "path": "^0.12.7",
     "vue": "^2.6.11",
     "vuetify": "^2.4.0",
