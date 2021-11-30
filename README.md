@@ -13,7 +13,7 @@ However, those mods are disabled by the server for a reason. If you use Solar Tw
 • Disable Pinned Servers
 • Mantle Cape System Integration
 • Block servers from disabling mods
-• Disable blog posts (Not in the current release, only in source code)
+• Disable blog posts
 • Change Level head prefix
 • Change the default "gg" in AutoGG
 • Change your nick hider name
