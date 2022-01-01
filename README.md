@@ -8,6 +8,16 @@ Solar Tweaks is a software that allows you to tweak Lunar Client to your liking 
 
 However, those mods are disabled by the server for a reason. If you use Solar Tweaks to re-enable these mods on servers that ban them, **you are cheating (on Hypixel it is cheating).** Therefore, **use those features of Solar Tweaks at your own risk.**
 
+# What features does it have?
+• Re-enable Freelook & AutoTextHotkey on Hypixel
+• Disable Pinned Servers
+• Mantle Cape System Integration
+• Block servers from disabling mods
+• Disable blog posts
+• Change Level head prefix
+• Change the default "gg" in AutoGG
+• Change your nick hider name
+• Change what is after the number of FPS for the FPS mod
 # How can I build it from source?
 
 If you want to build it from source, make sure you have installed:
